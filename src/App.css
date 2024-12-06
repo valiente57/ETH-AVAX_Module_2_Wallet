@@ -1,0 +1,111 @@
+.App {
+  text-align: center;
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #3e0b4f, #f56b8e);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  transition: transform 0.4s ease-in-out, filter 0.4s ease-in-out;
+  filter: drop-shadow(0 5px 10px rgba(0, 0, 0, 0.15));
+}
+
+.App-logo:hover {
+  transform: scale(1.15);
+  filter: drop-shadow(0 10px 20px rgba(0, 0, 0, 0.2));
+}
+
+.App-header {
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(15px);
+  padding: 2em 4em;
+  border-radius: 20px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #333;
+  transition: background 0.5s ease, box-shadow 0.5s ease;
+}
+
+.App-header:hover {
+  background: rgba(255, 255, 255, 0.3);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.2);
+}
+
+.App-link {
+  color: #3498db;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.2em;
+  padding-bottom: 0.2em;
+  border-bottom: 3px solid transparent;
+  transition: color 0.3s ease, border-bottom-color 0.3s ease;
+}
+
+.App-link:hover {
+  color: #2980b9;
+  border-bottom-color: #2980b9;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Modern Button Styles */
+.button {
+  padding: 0.8em 2em;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(135deg, #ff6b6b, #ff4757);
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.2);
+  border: none;
+  cursor: pointer;
+  transition: background 0.4s ease, box-shadow 0.4s ease, transform 0.4s ease;
+}
+
+.button:hover {
+  background: linear-gradient(135deg, #ff7b7b, #ff5252);
+  box-shadow: 0 10px 25px rgba(255, 107, 107, 0.3);
+  transform: translateY(-3px);
+}
+
+.button:active {
+  transform: translateY(0);
+  box-shadow: 0 5px 10px rgba(255, 107, 107, 0.2);
+}
+
+.button-outline {
+  padding: 0.8em 2em;
+  border-radius: 50px;
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  color: #ff4757;
+  background: transparent;
+  border: 2px solid #ff4757;
+  transition: background 0.4s ease, color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.button-outline:hover {
+  background: #ff4757;
+  color: rgb(255, 255, 255);
+  box-shadow: 0 5px 15px rgba(255, 107, 107, 0.2);
+}
+
+.button-outline:
