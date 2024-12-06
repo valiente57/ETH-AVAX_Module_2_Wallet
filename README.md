@@ -28,4 +28,4 @@ Import an account manually by adding the private key of the address.
 
 ## Funtionality
 
-Interact with the wallet through the UI, connect the wallet and perfom the transactions(Deposite, Withdraw, Transfer).
+Interact with the wallet through the UI, connect the wallet and perform the transactions(Deposite, Withdraw, Transfer).
